@@ -26,6 +26,20 @@
       "evidence_status": "design asset; not scientific evidence"
     }
   },
+  "deployments": {
+    "github_pages": {
+      "site_url": "https://bey0ndt1me.github.io/photonic-crystal-visuotactile-site/",
+      "source_repository_visibility": "private",
+      "site_visibility": "public",
+      "base_path": "/photonic-crystal-visuotactile-site",
+      "search_indexing": "discouraged by noindex and nofollow metadata; not access control",
+      "identity_risk": "the default URL exposes the GitHub owner handle"
+    },
+    "openai_sites": {
+      "site_url": "https://photonic-crystal-tactile-feedback.zhangruilin-0124.chatgpt.site",
+      "site_visibility": "private"
+    }
+  },
   "template_references": [
     {
       "name": "Academic Project Astro Template",

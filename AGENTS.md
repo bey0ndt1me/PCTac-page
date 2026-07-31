@@ -26,9 +26,11 @@
 - Install: `npm install`
 - Develop: `npm run dev`
 - Production build: `npm run build`
+- GitHub Pages static build: `npm run build:github-pages`
 - Rendered HTML tests: `node --test tests/rendered-html.test.mjs`
+- GitHub Pages artifact test: `npm run test:github-pages`
 - Lint: `npm run lint`
-- Full local verification: `npm test && npm run lint`
+- Full local verification: `npm test && npm run test:github-pages && npm run lint`
 - Conda environment: not applicable; this is a Node.js site.
 
 ## Assets and licensing
@@ -46,5 +48,11 @@
 - Preserve the vinext/Vite/Sites structure and `.openai/hosting.json`.
 - Run a successful production build and rendered HTML test before saving a Sites
   version.
-- Deploy privately by default. Do not publish publicly, change access, add a
-  custom domain, or enable search indexing without explicit user approval.
+- Preserve the separate Next.js static-export path and the repository subpath
+  used by GitHub Pages.
+- The private source repository publishes a public GitHub Pages site at
+  `https://bey0ndt1me.github.io/photonic-crystal-visuotactile-site/` with the
+  user's approval. Do not mistake repository privacy or `noindex` metadata for
+  website access control.
+- Keep the Sites deployment private. Do not change access, add a custom domain,
+  or enable search indexing without explicit user approval.

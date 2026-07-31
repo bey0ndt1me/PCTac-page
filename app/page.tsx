@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const publicAsset = (path: string) => `${basePath}${path}`;
+
 const contactField = [
   0, 0, 1, 1, 1, 0, 0, 0, 1, 2, 2, 2, 1, 0, 1, 2, 3, 4, 3, 2, 1, 1, 3,
   4, 5, 4, 3, 1, 1, 2, 4, 5, 4, 2, 1, 0, 1, 3, 4, 3, 1, 0, 0, 0, 1, 2, 1,
@@ -120,7 +123,7 @@ export default function Home() {
           <a href="#protocol">Protocol</a>
           <a href="#status">Status</a>
         </nav>
-        <a className="header-link" href="/paper-draft.pdf">
+        <a className="header-link" href={publicAsset("/paper-draft.pdf")}>
           Draft paper <span aria-hidden="true">↗</span>
         </a>
       </header>
@@ -145,7 +148,10 @@ export default function Home() {
             Anonymous Authors <span>·</span> Double-blind preview
           </p>
           <div className="hero-actions">
-            <a className="button button-primary" href="/paper-draft.pdf">
+            <a
+              className="button button-primary"
+              href={publicAsset("/paper-draft.pdf")}
+            >
               Read result-free draft <span aria-hidden="true">↗</span>
             </a>
             <a className="button button-secondary" href="#system">
@@ -280,13 +286,16 @@ export default function Home() {
               communicates control authority and planned evidence, not completed
               hardware or measured outcomes.
             </p>
-            <a href="/study-design-placeholder.png" target="_blank">
+            <a
+              href={publicAsset("/study-design-placeholder.png")}
+              target="_blank"
+            >
               Open full schematic <span aria-hidden="true">↗</span>
             </a>
           </div>
           <figure>
             <Image
-              src="/study-design-placeholder.png"
+              src={publicAsset("/study-design-placeholder.png")}
               alt="Study-design schematic explicitly marked hypothesis and not data"
               width={4319}
               height={2130}
@@ -466,7 +475,7 @@ export default function Home() {
             </p>
           </div>
           <div className="resource-links">
-            <a href="/paper-draft.pdf">
+            <a href={publicAsset("/paper-draft.pdf")}>
               <span>
                 <small>PDF</small>
                 Result-free draft
