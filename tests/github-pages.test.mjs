@@ -10,7 +10,6 @@ test("exports a complete GitHub Pages artifact", async () => {
   await Promise.all([
     access(new URL("../out/.nojekyll", import.meta.url)),
     access(new URL("../out/404.html", import.meta.url)),
-    access(new URL("../out/paper-draft.pdf", import.meta.url)),
     access(new URL("../out/study-design-placeholder.png", import.meta.url)),
     access(new URL("../out/og.png", import.meta.url)),
   ]);
@@ -20,15 +19,16 @@ test("exports a complete GitHub Pages artifact", async () => {
     "utf8",
   );
 
-  assert.match(html, /<title>Photonic-Crystal Tactile Feedback/);
+  assert.match(html, /<title>PCTac/);
   assert.match(html, /Anonymous Authors/);
-  assert.match(html, /Experimental results pending/);
+  assert.match(html, /Manuscript-reported results/);
+  assert.match(html.replace(/<!--.*?-->/g, ""), /68\/90/);
+  assert.match(html, /Not reported/);
   assert.match(html, /name="robots" content="noindex, nofollow"/i);
   assert.match(html, new RegExp(`${basePath}/_next/static/`));
-  assert.match(html, new RegExp(`${basePath}/paper-draft\\.pdf`));
-  assert.match(html, new RegExp(`${basePath}/study-design-placeholder\\.png`));
+  assert.match(html, new RegExp(`${basePath}/project/teaser\\.png`));
   assert.match(html, new RegExp(`${siteUrl}/og\\.png`));
-  assert.doesNotMatch(html, /(?:href|src)="\/paper-draft\.pdf"/);
+  assert.doesNotMatch(html, /paper-draft\.pdf|SO-101|GelSight/);
   assert.doesNotMatch(
     html,
     /(?:href|src)="\/study-design-placeholder\.png"/,

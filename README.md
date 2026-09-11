@@ -1,7 +1,17 @@
 # Photonic-Crystal Tactile Feedback — project website
 
-Anonymous research-project website with a private source repository and a
-public GitHub Pages deployment for:
+## Current release: September 11, 2026
+
+The page now displays six current PCTac figure plates and manuscript-reported
+results for seven configurations across three tasks. See `UPDATE_20260911.md`
+and `public/project/provenance.json` for evidence boundaries and reproducibility.
+GitHub Pages is the requested public release target; the old standalone repository
+is used only as a publication mirror of this canonical Website directory.
+The result-free description below documents the prior August preview, not the
+current release. Missing measurements remain explicitly missing.
+
+Anonymous research-project website source, now consolidated under the private
+PhCTac research repository, for:
 
 > Matched-Trajectory Evaluation of Photonic-Crystal Tactile Inner-Loop
 > Feedback for Slip-Responsive Grasping
@@ -11,16 +21,17 @@ Project Astro Template / Academic Project Page Template / Nerfies family, while
 using an original React and CSS implementation tailored to this study and the
 Sites-compatible vinext runtime.
 
-GitHub Pages site:
-<https://bey0ndt1me.github.io/photonic-crystal-visuotactile-site/>
+The previous standalone repository and public GitHub Pages deployment are
+historical deployment locations. This unified copy does not activate a root
+GitHub Actions workflow or redeploy the site.
 
 ## Evidence policy
 
 - Planned trial counts are labeled `Planned`.
-- The manuscript PDF is labeled result-free.
+- The manuscript PDF is intentionally excluded from the unified repository.
 - The study-design image remains visibly labeled as a hypothesis/placeholder.
-- Open-source SO-101 footage is identified as reference footage and is not
-  represented as project data.
+- The current platform is Hiwonder HX leader/follower; stale SO-101 reference
+  footage has been removed.
 - Synthetic software checks are never presented as scientific performance.
 - The generated social card is a design asset and contains no experimental
   result.
@@ -49,8 +60,10 @@ local assets.
   advisory and is not access control.
 - The existing Sites deployment remains a separate private preview.
 
-Pushes to `main` run `.github/workflows/pages.yml`, verify a static Next.js
-export, and deploy `out/` through the official GitHub Pages Actions.
+The nested historical `.github/workflows/pages.yml` is retained only to preserve
+the standalone site source history; GitHub does not execute nested workflows
+from the unified repository. Publishing or redeploying still requires explicit
+user authorization.
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for template and media
 attribution.

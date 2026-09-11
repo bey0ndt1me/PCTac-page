@@ -10,15 +10,15 @@ const socialImage = new URL(`${basePath}/og.png`, siteOrigin).toString();
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
-  title: "Photonic-Crystal Tactile Feedback | Anonymous Research Preview",
+  title: "PCTac | Direct Structural-Color Tactile Feedback",
   description:
-    "A result-free project preview for matched-trajectory evaluation of photonic-crystal tactile inner-loop feedback on SO-101.",
+    "PCTac project imagery, tactile observations and manuscript-reported results across three robot manipulation tasks.",
   keywords: [
     "visuotactile sensing",
     "photonic crystal",
     "robot tactile sensing",
     "slip-responsive grasping",
-    "SO-101",
+    "Hiwonder HX",
   ],
   robots: {
     index: false,

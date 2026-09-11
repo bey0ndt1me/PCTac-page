@@ -37,6 +37,9 @@ jobs:
       - name: Lint source
         run: npm run lint
 
+      - name: Verify published figure hashes and reported data
+        run: node --test tests/project-assets.test.mjs
+
       - name: Build and verify static export
         run: npm run test:github-pages
 

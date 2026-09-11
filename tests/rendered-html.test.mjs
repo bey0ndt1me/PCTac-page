@@ -23,7 +23,7 @@ async function render() {
   );
 }
 
-test("renders the anonymous result-free research page", async () => {
+test("renders the anonymous project results page", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
@@ -31,13 +31,13 @@ test("renders the anonymous result-free research page", async () => {
   const html = await response.text();
   assert.match(
     html,
-    /<title>Photonic-Crystal Tactile Feedback \| Anonymous Research Preview<\/title>/i,
+    /<title>PCTac \| Direct Structural-Color Tactile Feedback<\/title>/i,
   );
-  assert.match(html, /Matched-Trajectory Evaluation/);
+  assert.match(html, /Three contact-rich tasks/);
   assert.match(html, /Anonymous Authors/);
-  assert.match(html, /Experimental results pending/);
-  assert.match(html, /not measured data/i);
-  assert.match(html, /Planned/);
+  assert.match(html, /Manuscript-reported results/);
+  assert.match(html, /not a significance test/i);
+  assert.match(html, /Not reported/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/i);
 });
 
@@ -45,17 +45,18 @@ test("keeps evidence boundaries and required assets in the release", async () =>
   const [page, layout] = await Promise.all([
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
-    access(new URL("../public/paper-draft.pdf", import.meta.url)),
     access(new URL("../public/study-design-placeholder.png", import.meta.url)),
     access(new URL("../public/og.png", import.meta.url)),
   ]);
 
   assert.match(
     page,
-    /Synthetic smoke tests validate software\s+and interfaces only/,
+    /No stock footage or synthetic performance results/,
   );
-  assert.match(page, /No calibrated grip-force claim/);
-  assert.match(page, /CC BY-NC-SA 4\.0/);
+  assert.match(page, /without interpreting them as calibrated force or pressure/);
+  assert.match(page, /not reconstructed physical height, depth or pressure/);
+  assert.match(page, /not independently re-audited/);
+  assert.doesNotMatch(page, /paper-draft\.pdf|SO-101|GelSight/);
   assert.match(layout, /index:\s*false/);
   assert.doesNotMatch(layout, /Starter Project|codex-preview/);
 });

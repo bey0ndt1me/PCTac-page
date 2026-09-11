@@ -1,19 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-31",
+  "generated_at": "2026-09-11",
+  "current_project_assets": "public/project/provenance.json",
+  "current_results": "public/project/results.json",
   "research_source": {
     "repository": "photonic-crystal-visuotactile-sensor",
-    "commit": "6143ecd",
-    "paper": {
-      "source_path": "Writing/main.pdf",
-      "website_path": "public/paper-draft.pdf",
-      "sha256": "19440e75f740e230deb856cf0fb28b410d5e481a5ebf511b32e04cc128061d6c",
-      "evidence_status": "anonymous result-free draft"
-    },
+    "commit_binding": "the Git commit containing this file",
     "study_design_figure": {
       "source_path": "Writing/figures/Fig1_system_placeholder.png",
       "website_path": "public/study-design-placeholder.png",
-      "sha256": "75b7bf2afd6148d59924d230dd4235533d1d433c6a00eb40bc40f0357a44dfc3",
+      "sha256": "59ae96a1342424fd15efbc0fe065ff6aefdd62e5988ecee5e14b5fa08897aefd",
       "evidence_status": "hypothesis and layout placeholder; not data"
     }
   },
@@ -33,7 +29,8 @@
       "site_visibility": "public",
       "base_path": "/photonic-crystal-visuotactile-site",
       "search_indexing": "discouraged by noindex and nofollow metadata; not access control",
-      "identity_risk": "the default URL exposes the GitHub owner handle"
+      "identity_risk": "the default URL exposes the GitHub owner handle",
+      "status": "historical standalone deployment; unified repository does not auto-deploy it"
     },
     "openai_sites": {
       "site_url": "https://photonic-crystal-tactile-feedback.zhangruilin-0124.chatgpt.site",
@@ -57,14 +54,5 @@
       "license": "CC BY-SA 4.0"
     }
   ],
-  "external_media": [
-    {
-      "name": "SO-101 setup motors video",
-      "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/setup_motors_so101_2.mp4",
-      "source_page": "https://huggingface.co/docs/lerobot/en/so101",
-      "license": "CC BY-NC-SA 4.0",
-      "usage": "unmodified remote embed",
-      "evidence_status": "temporary open-source equipment reference; not project media"
-    }
-  ]
+  "external_media": []
 }

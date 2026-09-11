@@ -2,22 +2,23 @@
 
 ## Scope
 
-- This repository contains the anonymous project website only.
-- The research manuscript, protocols, raw data, controller code, and experiment
-  outputs remain in the separate research repository.
+- This directory contains the anonymous project website source inside the
+  unified PhCTac research repository.
 - Keep the site private during double-blind review unless the user explicitly
   approves a different access mode.
 
 ## Scientific-content rules
 
 - Treat the website as a result-free research preview until real, locked
-  analyses replace the pending state.
+  analyses replace the pending state. The 2026-09-11 update replaces the result-free
+  state with explicitly manuscript-reported task counts from commit 446c867.
+  Keep missing entries null and the independent-re-audit caveat visible.
 - Never present planned trial counts, synthetic checks, generated graphics, or
   open-source reference media as measured project evidence.
 - Preserve the labels `Planned`, `not measured data`, `result-free`, and
   `reference footage only` unless their underlying evidence status changes.
-- Use `gripper command` or `gripper effort`, not grip force in newtons, until an
-  independent command-to-force calibration is available.
+- PC and marker-based Wedge do not receive precise force/pressure calibration;
+  use `gripper command` or `gripper effort`, never grip force in newtons.
 - Keep authors anonymous until the user confirms that public identity is safe
   for the submission timeline.
 
@@ -35,13 +36,13 @@
 
 ## Assets and licensing
 
-- `public/paper-draft.pdf` is the anonymous, result-free manuscript copy.
+- The manuscript PDF is intentionally excluded from this unified repository.
 - `public/study-design-placeholder.png` is a hypothesis/layout placeholder, not
   a result.
 - `public/og.png` is a generated design asset, not scientific evidence.
 - Maintain the attributions in `THIRD_PARTY_NOTICES.md`.
-- Replace third-party reference media with traceable, project-owned footage
-  before a public paper release when practical.
+- Stale SO-101 third-party reference media has been removed; any future media
+  must match the Hiwonder HX platform and have traceable provenance.
 
 ## Hosting
 

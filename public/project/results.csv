@@ -1,0 +1,8 @@
+policy,whiteboard_successes,tube_successes,perturbed_tube_successes,trials_per_task
+Vision-only,19,9,1,30
+Marker-based Wedge RGB,23,21,13,30
+Marker-based Wedge depth,20,18,15,30
+Marker-based Wedge normal,21,20,14,30
+Marker-based Wedge marker,22,,,30
+PCTac RGB,22,25,13,30
+PCTac Hue,24,28,16,30

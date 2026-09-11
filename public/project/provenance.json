@@ -1,0 +1,66 @@
+{
+  "updated": "2026-09-11",
+  "sourceCommit": "446c86734788d652c5886b7d2445c5941a881ecf",
+  "assets": [
+    {
+      "name": "teaser",
+      "source": "figures/Fig_teaser_v3.pdf",
+      "sourceCommit": "446c86734788d652c5886b7d2445c5941a881ecf",
+      "sourceSha256": "4e9deef623b0fa7917b37cbc453d2b958c17b33a5bd7812d963d14f7f882b3fd",
+      "sha256": "9683daecf3db602bd2cd93302fe3f9ac8eea47b07808dc46548e8ddbb86d41a0",
+      "pngSha256": "f5dfeedd1ac1fe476c7a0394d74923fa837be8d5c8b3cb2956de2885d5040291",
+      "transform": "Remove PDF document/XMP identity metadata from website copy; Poppler PNG render, longest edge 2200 px. Manuscript source unchanged."
+    },
+    {
+      "name": "sensor-design",
+      "source": "figures/Fig_sensor_explosion_v3.pdf",
+      "sourceCommit": "446c86734788d652c5886b7d2445c5941a881ecf",
+      "sourceSha256": "cd95e80de7f5e789b63f068c8a4561910319e795e349c65fbe6bced5ce1f0382",
+      "sha256": "9c50a22326f12f25daa87d706f9110dbf601a9e2aa74c7789e7aa87d86f7280c",
+      "pngSha256": "39fac368c350c2b4c814462de58fc6b968f29bc38754eb95e5e4f550fd0472bb",
+      "transform": "Remove PDF document/XMP identity metadata from website copy; Poppler PNG render, longest edge 2200 px. Manuscript source unchanged."
+    },
+    {
+      "name": "learning-system",
+      "source": "figures/Fig_system_pipeline.pdf",
+      "sourceCommit": "446c86734788d652c5886b7d2445c5941a881ecf",
+      "sourceSha256": "10a1687fb1543f1084bd876c8f9380221f30b43472b208a2561244d11b6e5ceb",
+      "sha256": "7a18fca0fd760ac5848d63ee1642c7966460f9cf81688e09619317401f8c3bfc",
+      "pngSha256": "6fd1a9d45958d897b0417130fba073b81d292b875547644d8a9e3429cf06cae8",
+      "transform": "Remove PDF document/XMP identity metadata from website copy; Poppler PNG render, longest edge 2200 px. Manuscript source unchanged."
+    },
+    {
+      "name": "object-hue-fields",
+      "source": "figures/Fig_eight_objects_hue_maps.pdf",
+      "sourceCommit": "446c86734788d652c5886b7d2445c5941a881ecf",
+      "sourceSha256": "ba7a1d92889dca69070a46a986622f63579a0f02e5555e4a8a694ccfe7aa1c52",
+      "sha256": "8b481efb16171bbeff423027d1291db20063e8d9de1b3f604117b97ec368dbe8",
+      "pngSha256": "8ff76a981e5db4da0ad6bb61f363fd2ff32753e1a458bfed16b3d54851eeda06",
+      "transform": "Remove PDF document/XMP identity metadata from website copy; Poppler PNG render, longest edge 2200 px. Manuscript source unchanged."
+    },
+    {
+      "name": "successful-rollouts",
+      "source": "figures/Fig_rollouts_v6.pdf",
+      "sourceCommit": "446c86734788d652c5886b7d2445c5941a881ecf",
+      "sourceSha256": "33cc97ffca4951ad2921a7d09b637aa3b935e3a175a32205ec745c1c5d02a429",
+      "sha256": "0580d3844bec5a738ce84942d0b185ee0a10b590fd3c3a823948cae38633186b",
+      "pngSha256": "be4edd06099f94462725633516739dfff8ef2b269ca0d106f568958fb37f3f7b",
+      "transform": "Remove PDF document/XMP identity metadata from website copy; Poppler PNG render, longest edge 2200 px. Manuscript source unchanged."
+    },
+    {
+      "name": "failure-cases",
+      "source": "figures/Fig_failure_samples_v3.pdf",
+      "sourceCommit": "446c86734788d652c5886b7d2445c5941a881ecf",
+      "sourceSha256": "c15882f9fc5d91efa26df82b5da7b8aecdfa7923458c073b82363a62885d31ae",
+      "sha256": "731a8a298f63814ebb7435d27b0e2a9bd28ff1e07b6ec4094bf875917dc81552",
+      "pngSha256": "4859b5a0c3ade5566bfe99e72891a9f4cc9ec6b401e75ca91092d7dbd105f5f7",
+      "transform": "Remove PDF document/XMP identity metadata from website copy; Poppler PNG render, longest edge 2200 px. Manuscript source unchanged."
+    }
+  ],
+  "exclusions": [
+    "Raw episodes, model weights, credentials and local configurations",
+    "Full manuscript PDF and author metadata",
+    "Superseded duplicate figures and placeholder figures",
+    "Force/pressure claims and latency claims not independently supported for this release"
+  ]
+}
