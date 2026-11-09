@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     type: "website",
     title: "Photonic-Crystal Tactile Feedback",
     description:
-      "Matched trajectories · bounded action · anonymous research preview.",
+      "Matched trajectories · bounded action · research preview.",
     url: siteUrl,
     images: [
       {
         url: socialImage,
         width: 1731,
         height: 909,
-        alt: "Photonic-crystal tactile feedback anonymous research preview",
+        alt: "Photonic-crystal tactile feedback research preview",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Photonic-Crystal Tactile Feedback",
     description:
-      "Matched trajectories · bounded action · anonymous research preview.",
+      "Matched trajectories · bounded action · research preview.",
     images: [socialImage],
   },
 };

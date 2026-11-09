@@ -22,7 +22,7 @@ export default function Home() {
         <div className="eyebrow-row"><span className="eyebrow">Research project</span><span className="status-pill">Updated September 11, 2026</span></div>
         <h1>PCTac: <em>Direct Structural-Color Tactile Feedback</em> for Dexterous Manipulation</h1>
         <p className="hero-deck">A photonic-crystal fingertip brings contact-induced color changes directly into robot learning.</p>
-        <p className="authors">Anonymous Authors <span>·</span> Research in progress</p>
+        <p className="authors">Ruilin Zhang<sup>1,*</sup>, Xuanshuo Liu<sup>1,*</sup>, Junzhe Dai<sup>1,2</sup>, Kefei Wu<sup>1</sup>, Xuhao Qin<sup>1</sup>, Ziyuan Jiao<sup>2,†</sup>, Wanlin Li<sup>2,†</sup>, Yurui Qu<sup>1,†</sup>, Chenxi Xiao<sup>1,†</sup> <span>·</span> Research in progress</p>
         <div className="hero-actions"><a className="button button-primary" href="#results">Explore results ↓</a><a className="button button-secondary" href="#gallery">View project imagery ↓</a></div>
         <p className="evidence-note">Project photographs, manuscript figures and reported task counts. No stock footage or synthetic performance results.</p>
       </div>
@@ -47,7 +47,7 @@ export default function Home() {
       <div className="project-evidence"><h3>How to read these numbers</h3><p>PCTac Hue reports 24/30, 28/30 and 16/30 successes across the three tasks. These descriptive counts are not a significance test. Episode-level records, training-seed variation and confidence intervals were not independently re-audited for this website update.</p><p>Marker-based Wedge is a research baseline, not a commercial product claim. Its marker-input insertion results remain missing in the source. No force-calibration, inference-latency or slip-response advantage is inferred from this table.</p></div>
     </section>
     <section className="section-pad resources-section" id="resources"><div className="resources-card"><div><span className="resources-kicker">Traceable resources</span><h2>Figures and reported data.</h2><p>Download the table and provenance manifest. Every figure above links to a PDF copy with identity metadata removed; figure content is unchanged. The source repository remains private; these website resources are public.</p><p>Raw episodes, model weights, local configurations and the full manuscript are not included. Placeholder and superseded duplicate figures are excluded from the gallery. No verified standalone project video is bundled in this release.</p></div><div className="resource-links"><a href={asset("results.csv")} download>Results table · CSV ↗</a><a href={asset("results.json")} download>Results and evidence status · JSON ↗</a><a href={asset("provenance.json")} download>Figure sources and checksums ↗</a></div></div></section>
-    <footer><div><strong>PCTac</strong><p>Anonymous research project · Updated September 2026</p></div><p className="footer-note">Academic page structure inspired by Academic Project Astro Template, Academic Project Page Template and Nerfies.</p><a href="#top">Back to top ↑</a></footer>
+    <footer><div><strong>PCTac</strong></div><p className="footer-note">Academic page structure inspired by Academic Project Astro Template, Academic Project Page Template and Nerfies.</p><a href="#top">Back to top ↑</a></footer>
   </main>;
 }
 

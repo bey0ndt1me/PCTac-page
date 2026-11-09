@@ -10,7 +10,7 @@ is used only as a publication mirror of this canonical Website directory.
 The result-free description below documents the prior August preview, not the
 current release. Missing measurements remain explicitly missing.
 
-Anonymous research-project website source, now consolidated under the private
+Project website source for the PCTac study, now consolidated under the unified
 PhCTac research repository, for:
 
 > Matched-Trajectory Evaluation of Photonic-Crystal Tactile Inner-Loop
@@ -51,26 +51,24 @@ local assets.
 
 ## Hosting and visibility
 
-- The source repository remains private.
-- The GitHub Pages website is public because a private personal repository does
-  not make its Pages site private.
-- The default Pages URL exposes the GitHub owner handle `bey0ndt1me`; this is a
-  known double-blind-review identity risk.
-- Search indexing is discouraged with `noindex, nofollow`, but that metadata is
-  advisory and is not access control.
+- The source repository is public (`bey0ndt1me/PCTac-page`).
+- The GitHub Pages website is public and is published from `site/`.
+- Author identity is public since 2026-11-09: the page credits the real author
+  list, so the double-blind-review identity constraint no longer applies.
+- Search indexing is still discouraged with `noindex, nofollow`, but that
+  metadata is advisory and is not access control.
 - The existing Sites deployment remains a separate private preview.
 
-The nested historical `.github/workflows/pages.yml` is retained only to preserve
-the standalone site source history; GitHub does not execute nested workflows
-from the unified repository. Publishing or redeploying still requires explicit
-user authorization.
+`.github/workflows/pages.yml` at the repository root verifies the `site/`
+artifact with `node scripts/verify-migrated-site.mjs` and deploys it to GitHub
+Pages on every push to `main`.
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for template and media
 attribution.
 
 ## Current GitHub Pages site (2026-11-09)
 
-The published website is an unchanged static import from `Anonymousresearcher-6657/PCTac` at `6b1f85f2e70a58afbab96cd7c7ac11c9f853001c`.
+The published website is a static import from `Anonymousresearcher-6657/PCTac` at `6b1f85f2e70a58afbab96cd7c7ac11c9f853001c`, with `site/index.html` and `site/_next/static/css/20c3f2f8edbdd7ef.css` edited on 2026-11-09 to credit the real author list and drop the anonymous venue line (see `post_import_edits` in `STATIC_SITE_MIGRATION.json`).
 The Pages workflow validates and uploads only `site/`; the original private Sites application source and deployment configuration are retained.
 
 - Website: https://bey0ndt1me.github.io/photonic-crystal-visuotactile-site/
@@ -78,4 +76,6 @@ The Pages workflow validates and uploads only `site/`; the original private Site
 - Provenance and SHA-256 inventory: `STATIC_SITE_MIGRATION.json`
 - Pre-migration restore point: `archive/site-before-anonymous-migration-20261109` (`2c0cfc09aec57581b69f035b5a884d134c33150e`)
 
-The source anonymous website is unchanged. Source and target Git histories are retained by the migration merge.
+All other imported files remain byte-for-byte copies of the source; only the two
+files listed above were edited. Source and target Git histories are retained by
+the migration merge.

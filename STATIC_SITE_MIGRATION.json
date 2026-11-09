@@ -6,7 +6,7 @@
   "previous_target_commit": "2c0cfc09aec57581b69f035b5a884d134c33150e",
   "backup_tag": "archive/site-before-anonymous-migration-20261109",
   "imported_at": "2026-11-09T20:12:14.654580+08:00",
-  "content_changes": "None. All source files are byte-for-byte copies; relative asset URLs work under the destination project path.",
+  "content_changes": "index.html and _next/static/css/20c3f2f8edbdd7ef.css were edited after import on 2026-11-09 to credit the real author list and remove the anonymous venue line; all other files remain byte-for-byte copies of the source.",
   "files": [
     {
       "path": ".nojekyll",
@@ -16,15 +16,17 @@
     },
     {
       "path": "_next/static/css/20c3f2f8edbdd7ef.css",
-      "size": 9435,
-      "sha256": "d1b4ffe2363bbe4ba66647649a9825ea0f64e7784fa4a81c9b2f3d3e1ab3699d",
-      "source_git_blob": "3068b3f0a4c54492bfc1ae21914296c49a127c4d"
+      "size": 9540,
+      "sha256": "524a233b7c40920487acfbe8aa965cd424477f7a6cb0d711d250870af485d87c",
+      "source_git_blob": "3068b3f0a4c54492bfc1ae21914296c49a127c4d",
+      "edited_after_import": "2026-11-09"
     },
     {
       "path": "index.html",
-      "size": 14448,
-      "sha256": "42811e49db7cdca89ace399f7c5e3e0143c84ea4f5bb44ffe8834744ed6359f1",
-      "source_git_blob": "80acee25f4d87f65a9052c75df5219108ac8f78a"
+      "size": 14560,
+      "sha256": "9146573e7053ca06994d088cbdf2ea3f5d468b841741f6db6ca346b5b5b5c302",
+      "source_git_blob": "80acee25f4d87f65a9052c75df5219108ac8f78a",
+      "edited_after_import": "2026-11-09"
     },
     {
       "path": "project/media/fabrication-01.jpg",
@@ -439,6 +441,12 @@
       "size": 26,
       "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
       "source_git_blob": "1f53798bb4fe33c86020be7f10c44f29486fd190"
+    }
+  ],
+  "post_import_edits": [
+    {
+      "date": "2026-11-09",
+      "summary": "Replaced \"Anonymous Authors\" with the real author list (with superscript markers) and removed the \"Anonymous research project · September 2026\" venue line; author font size and superscript spacing adjusted. Size and sha256 below reflect the edited content."
     }
   ]
 }

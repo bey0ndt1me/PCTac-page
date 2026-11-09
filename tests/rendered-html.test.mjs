@@ -23,7 +23,7 @@ async function render() {
   );
 }
 
-test("renders the anonymous project results page", async () => {
+test("renders the project results page", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
@@ -34,7 +34,9 @@ test("renders the anonymous project results page", async () => {
     /<title>PCTac \| Direct Structural-Color Tactile Feedback<\/title>/i,
   );
   assert.match(html, /Three contact-rich tasks/);
-  assert.match(html, /Anonymous Authors/);
+  assert.match(html, /Ruilin Zhang/);
+  assert.match(html, /Chenxi Xiao/);
+  assert.doesNotMatch(html, /Anonymous Authors/);
   assert.match(html, /Manuscript-reported results/);
   assert.match(html, /not a significance test/i);
   assert.match(html, /Not reported/);

@@ -2,10 +2,10 @@
 
 ## Scope
 
-- This directory contains the anonymous project website source inside the
-  unified PhCTac research repository.
-- Keep the site private during double-blind review unless the user explicitly
-  approves a different access mode.
+- This directory contains the project website source inside the unified PhCTac
+  research repository.
+- The user approved public release on 2026-11-09. Keep the GitHub Pages site
+  public and the private Sites deployment private.
 
 ## Scientific-content rules
 
@@ -19,8 +19,14 @@
   `reference footage only` unless their underlying evidence status changes.
 - PC and marker-based Wedge do not receive precise force/pressure calibration;
   use `gripper command` or `gripper effort`, never grip force in newtons.
-- Keep authors anonymous until the user confirms that public identity is safe
-  for the submission timeline.
+- Public identity is approved by the user (2026-11-09). The published page now
+  credits the real author list instead of `Anonymous Authors`, and the
+  `Anonymous research project` venue line is gone. Keep the credited names and
+  their superscript markers exactly as supplied (superscript separated from the
+  name by a space for readability): Ruilin Zhang 1,\*, Xuanshuo Liu 1,\*,
+  Junzhe Dai 1,2, Kefei Wu 1, Xuhao Qin 1, Ziyuan Jiao 2,†, Wanlin Li 2,†,
+  Yurui Qu 1,†, Chenxi Xiao 1,†. Do not reintroduce the anonymity framing
+  without a new instruction from the user.
 
 ## Commands
 
@@ -60,7 +66,7 @@
 
 ## GitHub Pages migration (2026-11-09)
 
-- GitHub Pages now publishes the complete prebuilt anonymous site from `site/`.
+- GitHub Pages publishes the complete prebuilt site from `site/`.
 - Source repository/commit and every file hash are in `STATIC_SITE_MIGRATION.json`.
 - Validate the deployed artifact with `node scripts/verify-migrated-site.mjs`.
 - The Pages workflow uploads only `site/`, never the repository source or private Sites files.

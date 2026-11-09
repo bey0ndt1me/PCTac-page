@@ -20,7 +20,8 @@ test("exports a complete GitHub Pages artifact", async () => {
   );
 
   assert.match(html, /<title>PCTac/);
-  assert.match(html, /Anonymous Authors/);
+  assert.match(html, /Ruilin Zhang/);
+  assert.doesNotMatch(html, /Anonymous Authors/);
   assert.match(html, /Manuscript-reported results/);
   assert.match(html.replace(/<!--.*?-->/g, ""), /68\/90/);
   assert.match(html, /Not reported/);
