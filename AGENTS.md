@@ -58,11 +58,13 @@
 - Preserve the separate Next.js static-export path and the repository subpath
   used by GitHub Pages.
 - The private source repository publishes a public GitHub Pages site at
-  `https://bey0ndt1me.github.io/photonic-crystal-visuotactile-site/` with the
-  user's approval. Do not mistake repository privacy or `noindex` metadata for
-  website access control.
-- Keep the Sites deployment private. Do not change access, add a custom domain,
-  or enable search indexing without explicit user approval.
+  `https://bey0ndt1me.github.io/PCTac-page/` with the user's approval. Do not
+  mistake repository privacy for website access control.
+- Search indexing was enabled on 2026-11-09 at the user's explicit request:
+  `site/index.html` carries no `noindex` meta and `site/robots.txt` serves
+  `Allow: /`. Keep it that way unless the user asks to reverse it.
+- Keep the Sites deployment private. Do not change access or add a custom domain
+  without explicit user approval.
 
 ## GitHub Pages migration (2026-11-09)
 

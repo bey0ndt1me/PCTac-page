@@ -22,7 +22,8 @@ export default function Home() {
         <div className="eyebrow-row"><span className="eyebrow">Research project</span><span className="status-pill">Updated September 11, 2026</span></div>
         <h1>PCTac: <em>Direct Structural-Color Tactile Feedback</em> for Dexterous Manipulation</h1>
         <p className="hero-deck">A photonic-crystal fingertip brings contact-induced color changes directly into robot learning.</p>
-        <p className="authors">Ruilin Zhang<sup>1,*</sup>, Xuanshuo Liu<sup>1,*</sup>, Junzhe Dai<sup>1,2</sup>, Kefei Wu<sup>1</sup>, Xuhao Qin<sup>1</sup>, Ziyuan Jiao<sup>2,†</sup>, Wanlin Li<sup>2,†</sup>, Yurui Qu<sup>1,†</sup>, Chenxi Xiao<sup>1,†</sup> <span>·</span> Research in progress</p>
+        <p className="authors">Ruilin Zhang<sup>1,*</sup>, Xuanshuo Liu<sup>1,*</sup>, Junzhe Dai<sup>1,2</sup>, Kefei Wu<sup>1</sup>, Xuhao Qin<sup>1</sup>,<br />Ziyuan Jiao<sup>2,†</sup>, Wanlin Li<sup>2,†</sup>, Yurui Qu<sup>1,†</sup>, Chenxi Xiao<sup>1,†</sup> <span>·</span> Research in progress</p>
+        <p className="affiliations"><sup>*</sup>Equal contribution. <sup>†</sup>Corresponding authors.<br /><sup>1</sup>School of Information Science and Technology, ShanghaiTech University, Shanghai, China. {"{zhangr12023, liuxsh2025, daijzh2023, wukf, qinxh2024, quyr, xiaochx}"}@shanghaitech.edu.cn<br /><sup>2</sup>State Key Laboratory of General Artificial Intelligence, Beijing Institute for General Artificial Intelligence (BIGAI), Beijing, China. {"{liwanlin, jiaoziyuan}"}@bigai.ai</p>
         <div className="hero-actions"><a className="button button-primary" href="#results">Explore results ↓</a><a className="button button-secondary" href="#gallery">View project imagery ↓</a></div>
         <p className="evidence-note">Project photographs, manuscript figures and reported task counts. No stock footage or synthetic performance results.</p>
       </div>

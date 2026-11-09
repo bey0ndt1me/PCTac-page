@@ -55,8 +55,8 @@ local assets.
 - The GitHub Pages website is public and is published from `site/`.
 - Author identity is public since 2026-11-09: the page credits the real author
   list, so the double-blind-review identity constraint no longer applies.
-- Search indexing is still discouraged with `noindex, nofollow`, but that
-  metadata is advisory and is not access control.
+- Search indexing is allowed as of 2026-11-09 (the author asked for it): the
+  `noindex` meta tag was removed and `site/robots.txt` now serves `Allow: /`.
 - The existing Sites deployment remains a separate private preview.
 
 `.github/workflows/pages.yml` at the repository root verifies the `site/`

@@ -16,9 +16,10 @@
   "generated_assets": {
     "social_preview": {
       "path": "public/og.png",
-      "sha256": "00f65baa989ce07d388c110fdc6ef3f27c69fa4dfca4b2ed1a4c58e10013f726",
+      "sha256": "c0a454230300ea5af152104ae795d42482d12998574312a86e50e74eacd90895",
       "dimensions_px": [1731, 909],
       "generator": "OpenAI built-in image generation",
+      "post_processing": "2026-11-09: the 'ANONYMOUS RESEARCH PREVIEW' line was removed by reconstructing the background with a per-column vertical gradient; the rest of the image is unchanged.",
       "evidence_status": "design asset; not scientific evidence"
     }
   },
@@ -28,7 +29,7 @@
       "source_repository_visibility": "private",
       "site_visibility": "public",
       "base_path": "/photonic-crystal-visuotactile-site",
-      "search_indexing": "discouraged by noindex and nofollow metadata; not access control",
+      "search_indexing": "allowed as of 2026-11-09 at the author's request; noindex meta and the Disallow rule were both removed",
       "identity_risk": "the default URL exposes the GitHub owner handle",
       "status": "historical standalone deployment; unified repository does not auto-deploy it"
     },

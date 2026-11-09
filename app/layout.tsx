@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     "Hiwonder HX",
   ],
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
   openGraph: {
     type: "website",

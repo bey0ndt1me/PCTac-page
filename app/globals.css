@@ -269,7 +269,7 @@ h1 em {
   font-weight: 600;
   letter-spacing: 0.01em;
   line-height: 1.7;
-  margin-bottom: 34px;
+  margin-bottom: 10px;
   max-width: 780px;
 }
 
@@ -282,6 +282,21 @@ h1 em {
 .authors span {
   color: var(--orange);
   margin: 0 8px;
+}
+
+.affiliations {
+  color: var(--ink-soft);
+  font-size: clamp(12px, 1.05vw, 14px);
+  line-height: 1.65;
+  margin-bottom: 34px;
+  max-width: 780px;
+  overflow-wrap: break-word;
+}
+
+.affiliations sup {
+  font-size: 0.72em;
+  line-height: 0;
+  margin-right: 2px;
 }
 
 .hero-actions {

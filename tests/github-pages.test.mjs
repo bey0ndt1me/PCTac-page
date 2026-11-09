@@ -22,10 +22,13 @@ test("exports a complete GitHub Pages artifact", async () => {
   assert.match(html, /<title>PCTac/);
   assert.match(html, /Ruilin Zhang/);
   assert.doesNotMatch(html, /Anonymous Authors/);
+  assert.match(html, /Equal contribution/);
+  assert.match(html, /ShanghaiTech University/);
+  assert.match(html, /BIGAI/);
   assert.match(html, /Manuscript-reported results/);
   assert.match(html.replace(/<!--.*?-->/g, ""), /68\/90/);
   assert.match(html, /Not reported/);
-  assert.match(html, /name="robots" content="noindex, nofollow"/i);
+  assert.doesNotMatch(html, /noindex/i);
   assert.match(html, new RegExp(`${basePath}/_next/static/`));
   assert.match(html, new RegExp(`${basePath}/project/teaser\\.png`));
   assert.match(html, new RegExp(`${siteUrl}/og\\.png`));

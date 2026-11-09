@@ -59,6 +59,8 @@ test("keeps evidence boundaries and required assets in the release", async () =>
   assert.match(page, /not reconstructed physical height, depth or pressure/);
   assert.match(page, /not independently re-audited/);
   assert.doesNotMatch(page, /paper-draft\.pdf|SO-101|GelSight/);
-  assert.match(layout, /index:\s*false/);
+  assert.match(page, /ShanghaiTech University/);
+  assert.match(page, /BIGAI/);
+  assert.match(layout, /index:\s*true/);
   assert.doesNotMatch(layout, /Starter Project|codex-preview/);
 });
