@@ -67,3 +67,15 @@ user authorization.
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for template and media
 attribution.
+
+## Current GitHub Pages site (2026-11-09)
+
+The published website is an unchanged static import from `Anonymousresearcher-6657/PCTac` at `6b1f85f2e70a58afbab96cd7c7ac11c9f853001c`.
+The Pages workflow validates and uploads only `site/`; the original private Sites application source and deployment configuration are retained.
+
+- Website: https://bey0ndt1me.github.io/photonic-crystal-visuotactile-site/
+- Verify: `node scripts/verify-migrated-site.mjs`
+- Provenance and SHA-256 inventory: `STATIC_SITE_MIGRATION.json`
+- Pre-migration restore point: `archive/site-before-anonymous-migration-20261109` (`2c0cfc09aec57581b69f035b5a884d134c33150e`)
+
+The source anonymous website is unchanged. Source and target Git histories are retained by the migration merge.

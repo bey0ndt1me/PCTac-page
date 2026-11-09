@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "ping-pong",
+      "name": "Ping-pong",
+      "object": "/project/objects/ping-pong-object.png",
+      "tactile": "/project/objects/ping-pong-tactile.png"
+    },
+    {
+      "id": "battery",
+      "name": "Battery",
+      "object": "/project/objects/battery-object.png",
+      "tactile": "/project/objects/battery-tactile.png"
+    },
+    {
+      "id": "peanut",
+      "name": "Peanut",
+      "object": "/project/objects/peanut-object.png",
+      "tactile": "/project/objects/peanut-tactile.png"
+    },
+    {
+      "id": "heat-sink",
+      "name": "Heat sink",
+      "object": "/project/objects/heat-sink-object.png",
+      "tactile": "/project/objects/heat-sink-tactile.png"
+    },
+    {
+      "id": "lego",
+      "name": "LEGO",
+      "object": "/project/objects/lego-object.png",
+      "tactile": "/project/objects/lego-tactile.png"
+    },
+    {
+      "id": "printed-pla",
+      "name": "Printed PLA",
+      "object": "/project/objects/printed-pla-object.png",
+      "tactile": "/project/objects/printed-pla-tactile.png"
+    },
+    {
+      "id": "screw",
+      "name": "Screw",
+      "object": "/project/objects/screw-object.png",
+      "tactile": "/project/objects/screw-tactile.png"
+    },
+    {
+      "id": "pcb",
+      "name": "PCB",
+      "object": "/project/objects/pcb-object.png",
+      "tactile": "/project/objects/pcb-tactile.png"
+    }
+  ],
+  "note": "Individual object and tactile images from the verified source; original pixels and pairing preserved."
+}

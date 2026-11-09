@@ -1,0 +1,25 @@
+{
+  "updated": "2026-09-24",
+  "evidence": "Standalone CAD, frames from project recordings, and eight object-image pairs extracted from the latest locally available source figure. No complete manuscript composite figures are displayed.",
+  "panelWindows": [],
+  "assets": [
+    {
+      "name": "media/sensor-exploded.png",
+      "sha256": "5ccd302d1a9e4e4483958c45c051cc33c56f4ec5bb5818c9147b582e7a2915ab",
+      "transform": "Unchanged standalone CAD rendering. No manuscript panel lettering."
+    },
+    {
+      "name": "media/optical-response-20s.jpg",
+      "transform": "Frame at twenty seconds from the project cropped optical-response video, no recoloring or generated edits. See media/media.json."
+    },
+    {
+      "name": "media/robot-wiping.jpg",
+      "transform": "Frame at one second from the three-view project video. Camera-view names are preserved, not manuscript panel lettering."
+    }
+  ],
+  "exclusions": [
+    "Manuscript composite figures and PDFs",
+    "Placeholder or synthetic evidence",
+    "Raw episodes and private machine configuration"
+  ]
+}

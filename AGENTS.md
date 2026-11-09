@@ -57,3 +57,12 @@
   website access control.
 - Keep the Sites deployment private. Do not change access, add a custom domain,
   or enable search indexing without explicit user approval.
+
+## GitHub Pages migration (2026-11-09)
+
+- GitHub Pages now publishes the complete prebuilt anonymous site from `site/`.
+- Source repository/commit and every file hash are in `STATIC_SITE_MIGRATION.json`.
+- Validate the deployed artifact with `node scripts/verify-migrated-site.mjs`.
+- The Pages workflow uploads only `site/`, never the repository source or private Sites files.
+- The existing vinext/Next source, dependency files, and `.openai/hosting.json` remain available for the private Sites deployment; previous npm build/test commands apply to that legacy source.
+- Keep the imported content and media identical to the recorded source unless the user requests content edits. No dependency installation or rebuild is required for the prebuilt GitHub Pages artifact.

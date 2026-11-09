@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "note": "Qualitative presentation derivatives; original recordings unchanged. Playback speeds labeled. Source mapping retained privately.",
+  "items": [
+    {
+      "id": "fabrication-full",
+      "title": "PCTac Fabrication",
+      "kind": "fabrication",
+      "video": "./project/media/fabrication-full.mp4",
+      "poster": "./project/media/fabrication-full.jpg",
+      "description": "Complete fabrication process with the PCTac Fabrication opening title and English section transitions.",
+      "playbackLabel": "Original speed · 14 min 1.7 s",
+      "sha256": "aeb10eebae5155e2d6630c1a66a7f321bb2a14492ee6eaf27e4c52c9b818ebf5",
+      "durationSeconds": 841.7
+    },
+    {
+      "id": "robot-wiping",
+      "title": "Whiteboard wiping",
+      "kind": "robot",
+      "video": "./project/media/robot-wiping-roi.mp4",
+      "poster": "./project/media/robot-wiping-roi.jpg",
+      "description": "Whiteboard recording 341–359 s; three camera views composited for qualitative inspection, not camera-sync or task-success evidence. Tactile panel only: cropped to source pixels x=120..219, y=182..301; aspect-preserving fit with black side bars. Global and wrist panels are uncropped.",
+      "playbackLabel": "Original speed · three-view preview",
+      "sha256": "9e10d97e1e28a2165c3517dc74664f4f4ec8dccd19d9d87b20c3ad6e1dbe33d1",
+      "durationSeconds": 18
+    },
+    {
+      "id": "robot-insertion",
+      "title": "Test-tube insertion",
+      "kind": "robot",
+      "video": "./project/media/robot-insertion-roi.mp4",
+      "poster": "./project/media/robot-insertion-roi.jpg",
+      "description": "PC self episode 000; three episode-aligned camera exports. Qualitative deployment footage only; exposure synchronization and outcome are not inferred. Tactile panel only: cropped to source pixels x=120..219, y=182..301; aspect-preserving fit with black side bars. Global and wrist panels are uncropped.",
+      "playbackLabel": "Original speed · three-view preview",
+      "sha256": "f68c87934ad37ef36854f29bb5ad5cde11e9600129621e8858986e074473762d",
+      "durationSeconds": 25.333
+    },
+    {
+      "id": "robot-perturbed",
+      "title": "Test-tube perturbed",
+      "kind": "robot",
+      "video": "./project/media/robot-perturbed-roi.mp4",
+      "poster": "./project/media/robot-perturbed-roi.jpg",
+      "description": "PC perturbed episode 033; label inherited from source export. Qualitative footage only; per-episode perturbation, exposure synchronization, and outcome are not independently verified. Tactile panel only: cropped to source pixels x=120..219, y=182..301; aspect-preserving fit with black side bars. Global and wrist panels are uncropped.",
+      "playbackLabel": "Original speed · three-view preview",
+      "sha256": "d7f3aae03b761be0014f1c1b161683cfd021a18aaa6ebf6faa93d8bc4d8a9bab",
+      "durationSeconds": 25.6
+    },
+    {
+      "id": "optical-response-roi",
+      "title": "Optical response · cropped ROI",
+      "kind": "response",
+      "video": "./project/media/optical-response-roi.mp4",
+      "poster": "./project/media/optical-response-roi.jpg",
+      "description": "Qualitative optical response in a cropped tactile ROI. This footage is not a force or pressure calibration.",
+      "playbackLabel": "Original speed · cropped ROI",
+      "sha256": "309af2f805bfc5828ea9f9a37e41a98f2f88e21561c077c18c6f84f046304daf",
+      "durationSeconds": 58.5
+    }
+  ]
+}

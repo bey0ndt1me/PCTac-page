@@ -1,0 +1,3 @@
+
+# Preserve every imported prebuilt asset byte across operating systems.
+site/** -text

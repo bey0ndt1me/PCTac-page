@@ -1,0 +1,444 @@
+{
+  "source_repository": "Anonymousresearcher-6657/PCTac",
+  "source_commit": "6b1f85f2e70a58afbab96cd7c7ac11c9f853001c",
+  "target_repository": "bey0ndt1me/photonic-crystal-visuotactile-site",
+  "target_url": "https://bey0ndt1me.github.io/photonic-crystal-visuotactile-site/",
+  "previous_target_commit": "2c0cfc09aec57581b69f035b5a884d134c33150e",
+  "backup_tag": "archive/site-before-anonymous-migration-20261109",
+  "imported_at": "2026-11-09T20:12:14.654580+08:00",
+  "content_changes": "None. All source files are byte-for-byte copies; relative asset URLs work under the destination project path.",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "_next/static/css/20c3f2f8edbdd7ef.css",
+      "size": 9435,
+      "sha256": "d1b4ffe2363bbe4ba66647649a9825ea0f64e7784fa4a81c9b2f3d3e1ab3699d",
+      "source_git_blob": "3068b3f0a4c54492bfc1ae21914296c49a127c4d"
+    },
+    {
+      "path": "index.html",
+      "size": 14448,
+      "sha256": "42811e49db7cdca89ace399f7c5e3e0143c84ea4f5bb44ffe8834744ed6359f1",
+      "source_git_blob": "80acee25f4d87f65a9052c75df5219108ac8f78a"
+    },
+    {
+      "path": "project/media/fabrication-01.jpg",
+      "size": 11652,
+      "sha256": "f813124eb13aea4b93ab1c86433aff1a932e819749ec275b4a9ef7ae6855b3b4",
+      "source_git_blob": "360675e1444308302b4ceddd75e476520a0c5b16"
+    },
+    {
+      "path": "project/media/fabrication-01.mp4",
+      "size": 625485,
+      "sha256": "1aa4a7d7f2a786a27b03e1eee8d863698b96961c5918303d0825ddecc1151eaa",
+      "source_git_blob": "241962d2e284b4ffe8c222066082c2d5a0553479"
+    },
+    {
+      "path": "project/media/fabrication-02.jpg",
+      "size": 24623,
+      "sha256": "5d08273da144a697b1435eea0abef19a8839dab4089325e497572dc612f7b1cb",
+      "source_git_blob": "ba3fdfef8c7670f449c1ce846a4da34abeedddc8"
+    },
+    {
+      "path": "project/media/fabrication-02.mp4",
+      "size": 628769,
+      "sha256": "a3e78d9a268517e32cb1a9be8200321130a7aefbbc7021953aaeb5b87779eb41",
+      "source_git_blob": "62abe63fe7469601f1906bac9f53e8a635cd7d82"
+    },
+    {
+      "path": "project/media/fabrication-03.jpg",
+      "size": 20097,
+      "sha256": "d7d5900c8bc341e3ce4b5675c94677141529f57bb258f3919403d64670469a81",
+      "source_git_blob": "2d4bacba47da8987c784dbc12152d9f7c2e38ea0"
+    },
+    {
+      "path": "project/media/fabrication-03.mp4",
+      "size": 582491,
+      "sha256": "08fc4d201b2058c29b1774f2053d1d6a7f18d1ceec6d567af71783feb9c9a71d",
+      "source_git_blob": "0eda3107e4852688abe20c12a6214ab23bbd7768"
+    },
+    {
+      "path": "project/media/fabrication-04.jpg",
+      "size": 24165,
+      "sha256": "76deb92cf0fa96339ce1c4e1357d141501596c92a79bacf445da37c803359a0c",
+      "source_git_blob": "cdf170e79597138dc0cc73872949955c41e06ffe"
+    },
+    {
+      "path": "project/media/fabrication-04.mp4",
+      "size": 530912,
+      "sha256": "0747c3cd0230f6bf77305c3c1c6aa030c982b0810f570c438b1d5c26e88bfd42",
+      "source_git_blob": "d6a53db1d52dc76792b2e33787f58e1ea7611219"
+    },
+    {
+      "path": "project/media/fabrication-05.jpg",
+      "size": 20059,
+      "sha256": "e4b10f06f2984750976f03fcf27c5ec74f51cbdce7c4b6c1e0720c5aba2dd4c1",
+      "source_git_blob": "e37ef481d5a1c768a377fe59cfa620a29b6f9419"
+    },
+    {
+      "path": "project/media/fabrication-05.mp4",
+      "size": 636217,
+      "sha256": "d68476419e671a8344e78119c02d83ea8106660553a1549827c3de2d3cc576af",
+      "source_git_blob": "630394b022cb0ccb4602aef7812738bb1f045318"
+    },
+    {
+      "path": "project/media/fabrication-06.jpg",
+      "size": 14883,
+      "sha256": "c00d81acca15205219e415af9f9634149f63c32c033026aa01256897a68826ea",
+      "source_git_blob": "53a50179510a4c4fddf59f3681191ddf6006629f"
+    },
+    {
+      "path": "project/media/fabrication-06.mp4",
+      "size": 537297,
+      "sha256": "ad7207beba217902ab8a8e742dd751e4112ace4a19e30b48a833dc358d295a9b",
+      "source_git_blob": "6043bb70536959cb9eaeafa225ce675b8c3716ba"
+    },
+    {
+      "path": "project/media/fabrication-07.jpg",
+      "size": 18656,
+      "sha256": "d433b1952c2364b99c5ad4c7ec6edd5166fa9ceb455c019d22d748913a1e2716",
+      "source_git_blob": "b37c6fc3896e70b486fbb063c10d50ec22cb6457"
+    },
+    {
+      "path": "project/media/fabrication-07.mp4",
+      "size": 573944,
+      "sha256": "3715e67f2072e0a50d9a154725c7856e282a89b1228d63824d5ae1eae4da6d9c",
+      "source_git_blob": "02f1ec4e10fd0cb08839c885d48505327f1c7c06"
+    },
+    {
+      "path": "project/media/fabrication-08.jpg",
+      "size": 12043,
+      "sha256": "080cd0a3cef5b5b24f39b9f6f569ed44560390eb70ffe302cc96a01b236a0496",
+      "source_git_blob": "e8e901f97102166a0753ae9346e65ee82eea394c"
+    },
+    {
+      "path": "project/media/fabrication-08.mp4",
+      "size": 544269,
+      "sha256": "cc47f9f105fa5def9d9b66747be6d22b044c4fa9ccd53f4359c440b8b97c8b7d",
+      "source_git_blob": "f86be1ac79cbbf265813a0ec019da829e4ad8bbe"
+    },
+    {
+      "path": "project/media/fabrication-09.jpg",
+      "size": 15358,
+      "sha256": "f9e658cb32a9ad2a38964cf41a42add293c0497bfb78adf1040d38d040681a6e",
+      "source_git_blob": "76679376f9b59a7c5fa159b62ac50f183daa9e1f"
+    },
+    {
+      "path": "project/media/fabrication-09.mp4",
+      "size": 517050,
+      "sha256": "1b0e7cb6a160d486b9f663128e135120fdf1f9561dcc8d412f1803648fd2f534",
+      "source_git_blob": "7098887f2006bcc3a74a0c3b7d020d948c6bb5e3"
+    },
+    {
+      "path": "project/media/fabrication-10.jpg",
+      "size": 17171,
+      "sha256": "d87dd6102ba776a53c68e53d6c03aa889afe830b41c9b6f1e64fbb0fb852146e",
+      "source_git_blob": "77673ef37500a626f338763f91d85180b39003d3"
+    },
+    {
+      "path": "project/media/fabrication-10.mp4",
+      "size": 573950,
+      "sha256": "ef2f3b188e92c88290a521032bfb37433f1bb57159400454d1f33e3c8b119c38",
+      "source_git_blob": "f158059b1b5d23dcebea533ae4afcc10cc820c94"
+    },
+    {
+      "path": "project/media/fabrication-11.jpg",
+      "size": 21169,
+      "sha256": "fda3b629c9e3a9ebd6dd5a483ff8259451529d5920b35775f38ed2f0dc869208",
+      "source_git_blob": "d4d96065bab0f3fd1f870eaa355b4c8d8c068141"
+    },
+    {
+      "path": "project/media/fabrication-11.mp4",
+      "size": 489814,
+      "sha256": "33203e5c54ea457a56dcb5f10ac4cfc7820a587019b06215a3afa3dc2abb15f3",
+      "source_git_blob": "42becad4ba9179c24e71c33a23b215e29ecee83b"
+    },
+    {
+      "path": "project/media/fabrication-12.jpg",
+      "size": 23458,
+      "sha256": "095ebed885e7de4831cab4eb21ca6a08a224a82f0210915b44356b4e94097d91",
+      "source_git_blob": "3d0552f6c5981af9ca4f142e9b82ba29a8a2826e"
+    },
+    {
+      "path": "project/media/fabrication-12.mp4",
+      "size": 519909,
+      "sha256": "ac2b816263431fb3a664669f0b9f22121926f518e7d931ee8d4e5700117d71aa",
+      "source_git_blob": "0703493846dac4e46dd9bd6f3ef6ef478dc5704b"
+    },
+    {
+      "path": "project/media/fabrication-13.jpg",
+      "size": 24233,
+      "sha256": "c3ebe5c85e0fd6ff6841a60093b999af46e88452c9799dcaabf207bc38167395",
+      "source_git_blob": "4a187640b2e344ce5db29c47af34dea373f456f2"
+    },
+    {
+      "path": "project/media/fabrication-13.mp4",
+      "size": 464461,
+      "sha256": "787295964926e40247fd83070a2455c242512cc536ab4aafb33279d8b9378ec2",
+      "source_git_blob": "c8a54313c7e836a7110e09439d4d86ed592e506d"
+    },
+    {
+      "path": "project/media/fabrication-14.jpg",
+      "size": 23849,
+      "sha256": "ebac65cf1a89053b0694fed7c7ea248aa12456f45305fe78a130467a04cf0eae",
+      "source_git_blob": "7fc578d5f2aca1db840b40ef76db182cbb1d5ff7"
+    },
+    {
+      "path": "project/media/fabrication-14.mp4",
+      "size": 487462,
+      "sha256": "d067f479404654de94bb0b5d35f85aa95a189c51d5d0710bcbf0215e5bafecce",
+      "source_git_blob": "1987972fd4fffb4cf04693d15cd278bfb959661a"
+    },
+    {
+      "path": "project/media/fabrication-15.jpg",
+      "size": 15139,
+      "sha256": "4b18fb9234b370a6615aec5040386f342372234ecbf915d681c1457c348b3ccf",
+      "source_git_blob": "4f6f22cb413f6f312dd8ab0adad92fa13479b58c"
+    },
+    {
+      "path": "project/media/fabrication-15.mp4",
+      "size": 563922,
+      "sha256": "128399d633ec1e8d57431cbb817b884281af4d6b710705ffb9267a0389e80c14",
+      "source_git_blob": "73d988248aa77ae1ddc23868dcd76d48e0875a82"
+    },
+    {
+      "path": "project/media/fabrication-full.jpg",
+      "size": 14662,
+      "sha256": "897ed4eaab6ca655c70bfed98f76efb49db7e43651b8e2072266f38b5b4ae743",
+      "source_git_blob": "1c372b552836ee32e8c456ff862e90b3af9d2fb9"
+    },
+    {
+      "path": "project/media/fabrication-full.mp4",
+      "size": 78175047,
+      "sha256": "aeb10eebae5155e2d6630c1a66a7f321bb2a14492ee6eaf27e4c52c9b818ebf5",
+      "source_git_blob": "e3947f751d02ba56b2e81bce7ec23f63d7017e76"
+    },
+    {
+      "path": "project/media/fabrication-painting-detail.jpg",
+      "size": 27430,
+      "sha256": "88fd89fbafe043c7ea056c003d2160c4bf77101a6a9890294615a1924a9c5af5",
+      "source_git_blob": "dfa706a3543ae34d6a897580344810e71b00f61a"
+    },
+    {
+      "path": "project/media/fabrication-painting-detail.mp4",
+      "size": 514520,
+      "sha256": "85d4f5a35f917045b0528c7cef84a770fbdf36fd5c6bc7f756ad411a1c21c0d5",
+      "source_git_blob": "3cca4cc203e7c9b8c06ab93967e5b2045125273b"
+    },
+    {
+      "path": "project/media/media.json",
+      "size": 3432,
+      "sha256": "cc2dc401e14af9687a9ffe6cce88da29414e36084fbabf12eafd4d1a178c04f9",
+      "source_git_blob": "4b9c9ab664d4697eedbd6dc317de82108ce5ade5"
+    },
+    {
+      "path": "project/media/optical-response-20s.jpg",
+      "size": 4164,
+      "sha256": "fbf9826f1a2272aea84120add644ab41937425e2db06b9fffd68cfddc024c9be",
+      "source_git_blob": "6eb299eaf1759a2ed1ef032d2562c23e08ecfa0c"
+    },
+    {
+      "path": "project/media/optical-response-roi.jpg",
+      "size": 1954,
+      "sha256": "e5e140cf10e1a40ba9492a2ff7e58b7c5d7c7aff1ee30ab815e8f05c75c0ab0e",
+      "source_git_blob": "c285a0f8b0f9654952e30fb735b3045daf7c057e"
+    },
+    {
+      "path": "project/media/optical-response-roi.mp4",
+      "size": 1390866,
+      "sha256": "309af2f805bfc5828ea9f9a37e41a98f2f88e21561c077c18c6f84f046304daf",
+      "source_git_blob": "0ebdebc526a1783dd0ed8acfeb36a4069f001242"
+    },
+    {
+      "path": "project/media/robot-insertion-roi.jpg",
+      "size": 26416,
+      "sha256": "4ad56126e86f3ce7f0436a7eed98722799170e8ae8e2a76183cc7b30b7170b52",
+      "source_git_blob": "fc415fdda2efa93f51e73990f3e45498b78ae262"
+    },
+    {
+      "path": "project/media/robot-insertion-roi.mp4",
+      "size": 2234839,
+      "sha256": "f68c87934ad37ef36854f29bb5ad5cde11e9600129621e8858986e074473762d",
+      "source_git_blob": "a2a41185327aead669f03da165997cf2840c7b87"
+    },
+    {
+      "path": "project/media/robot-perturbed-roi.jpg",
+      "size": 26046,
+      "sha256": "4c2a865597d60954f48b237334820950781997237135ed88b30f34c1b6e7724b",
+      "source_git_blob": "dd7590ba86943e95edef7e8a2c8b1cd98014568f"
+    },
+    {
+      "path": "project/media/robot-perturbed-roi.mp4",
+      "size": 2238912,
+      "sha256": "d7f3aae03b761be0014f1c1b161683cfd021a18aaa6ebf6faa93d8bc4d8a9bab",
+      "source_git_blob": "8fc567b4ffbab96cc64cb9bd2ca3bac86840bdac"
+    },
+    {
+      "path": "project/media/robot-wiping-earlier-roi.jpg",
+      "size": 19322,
+      "sha256": "fffd0422148995f8cc525a66b3acac716dd0cb69a2de4b42367bafca328c4966",
+      "source_git_blob": "a0b30c38b79d705d21a3d5e5617de75106443909"
+    },
+    {
+      "path": "project/media/robot-wiping-earlier-roi.mp4",
+      "size": 1314048,
+      "sha256": "6bb728df2d076f638e729bf5ba4f7169725029b05a67210248a8d44348220c96",
+      "source_git_blob": "41b1bec58c000286464b751310e47e571a85cc38"
+    },
+    {
+      "path": "project/media/robot-wiping-roi.jpg",
+      "size": 19499,
+      "sha256": "96bd9d4dbc084c8d2902ed481859a4251f50b99d6b7ab6f6993c68caff89dbed",
+      "source_git_blob": "2079b5607b75b4769e5d5cfcc90ecf116ffe302a"
+    },
+    {
+      "path": "project/media/robot-wiping-roi.mp4",
+      "size": 1574868,
+      "sha256": "9e10d97e1e28a2165c3517dc74664f4f4ec8dccd19d9d87b20c3ad6e1dbe33d1",
+      "source_git_blob": "5efb91defcc26805d80aac5e770b240e73e29c4c"
+    },
+    {
+      "path": "project/media/robot-wiping.jpg",
+      "size": 26269,
+      "sha256": "041cda0ed5f21f86c59e752fb3459a85783fa5ef7b105aeb94a41e51d2bbf783",
+      "source_git_blob": "eff53c2dfb0b3857d387fc099abf4a6333aabd00"
+    },
+    {
+      "path": "project/media/sensor-exploded.png",
+      "size": 552648,
+      "sha256": "5ccd302d1a9e4e4483958c45c051cc33c56f4ec5bb5818c9147b582e7a2915ab",
+      "source_git_blob": "1b8d0ee675f6c6aa0bc87a469907ff49e106b67b"
+    },
+    {
+      "path": "project/objects/battery-object.png",
+      "size": 12053,
+      "sha256": "46dca702267c44f19dc3a7afd06a023610e0ec4f4bcbcdaa35ae74e6dbbbb3e2",
+      "source_git_blob": "979d729cdd4351bbe962f7dd7ba2c578c4944e9a"
+    },
+    {
+      "path": "project/objects/battery-tactile.png",
+      "size": 24829,
+      "sha256": "3074a4a82117cfad111b8d7502e4db67fe0059c39ff4c652b57c381692b163db",
+      "source_git_blob": "0df5f953ce41f6651b9fd7430ce724de20909f25"
+    },
+    {
+      "path": "project/objects/gallery.json",
+      "size": 1502,
+      "sha256": "adbe9db76914e9fc14cb05cf7ee605bf55c4a71b0c86f18ad22f9565e2361127",
+      "source_git_blob": "69595c863968b5dde5852d405132bf83994f42dd"
+    },
+    {
+      "path": "project/objects/heat-sink-object.png",
+      "size": 14415,
+      "sha256": "51d769b47a77d1dc41dc4c0b1a929b426f65a91eba4ebffac9719418442e01e9",
+      "source_git_blob": "ebd4a5187a7fdb6ec70beda9c6dae1942e254fc6"
+    },
+    {
+      "path": "project/objects/heat-sink-tactile.png",
+      "size": 24582,
+      "sha256": "2c6ec1954c7fa163e0cd927e1c73b506e8d2968d70218255f786e09010935286",
+      "source_git_blob": "dfce1270dba2e32d5d093a1d5bda01cf91619021"
+    },
+    {
+      "path": "project/objects/lego-object.png",
+      "size": 32429,
+      "sha256": "fa4f0da74095eddfaa188d477e54c8cefb5e0c434492112a56546fecb41289ef",
+      "source_git_blob": "7392ae10be74185192b91020ff15a2809971d87a"
+    },
+    {
+      "path": "project/objects/lego-tactile.png",
+      "size": 27730,
+      "sha256": "e27663556343a090521751103f55e12e526ec7a515a64667d26cf74324daf2ee",
+      "source_git_blob": "6037446e2246062aed4b0e93ad97801230e7c743"
+    },
+    {
+      "path": "project/objects/pcb-object.png",
+      "size": 27989,
+      "sha256": "e5b5a97eaa44fe4f82e93ae85d1ee06600a17b2dad6f8f490e41e06784e834ca",
+      "source_git_blob": "858a30fccc1a4842dee8bdc6c246b80ff4d97541"
+    },
+    {
+      "path": "project/objects/pcb-tactile.png",
+      "size": 27400,
+      "sha256": "0dfcddf8bf59a5c2278704f9584f210ed2389fa6ae012c3f291aba92f761b1c9",
+      "source_git_blob": "11dfe2bf65d36e67fd90236a592b16bd6d3a4a48"
+    },
+    {
+      "path": "project/objects/peanut-object.png",
+      "size": 11967,
+      "sha256": "aa2d838791baa389057fc35285e20ca800c16f16f03dea238463fc4f113fa263",
+      "source_git_blob": "bbb380f587175ed4f06b7aa55bb51b95f8f59966"
+    },
+    {
+      "path": "project/objects/peanut-tactile.png",
+      "size": 30493,
+      "sha256": "917cbc1449b47b686f5b92424e247626b26edcb644cbc12d259e10aec4b48908",
+      "source_git_blob": "a217ec6c193e0585398405b3e37c83b21ebbc5aa"
+    },
+    {
+      "path": "project/objects/ping-pong-object.png",
+      "size": 20871,
+      "sha256": "1acdac01357684be49d340f7b5e0e04b7b6db82c426217f46aad1a6bbecb8199",
+      "source_git_blob": "9e9239b270fbdaa457581411274da071d4cead25"
+    },
+    {
+      "path": "project/objects/ping-pong-tactile.png",
+      "size": 20402,
+      "sha256": "86a399d0b9e10b5fc1a44ff77301e4cf6accef1b4ca22df3cf7f8e3766182f8b",
+      "source_git_blob": "0923c3008cd64212569e3b6c8b1a4e7153a457c3"
+    },
+    {
+      "path": "project/objects/printed-pla-object.png",
+      "size": 29222,
+      "sha256": "c3927cd5626e5a519204acc6c32ba158187678dd430fa06fdc40480e7221a859",
+      "source_git_blob": "b30e0c352f7f19dd7dafdfb4f540bc5310d454df"
+    },
+    {
+      "path": "project/objects/printed-pla-tactile.png",
+      "size": 32312,
+      "sha256": "46fc7256e8475dc083949c86ae65872a7d5ddb38b635b0ddf86fa72674b20a11",
+      "source_git_blob": "8cd551ff5d5074e34f665aff7d0fccaf4d5320c6"
+    },
+    {
+      "path": "project/objects/screw-object.png",
+      "size": 18854,
+      "sha256": "88634a4a6996030d7321d00ab6412fa81f9deb07e85ce28fd03fe64a9a949814",
+      "source_git_blob": "40c32b362a83895d63223e36ca4dd5c4b2f4cce7"
+    },
+    {
+      "path": "project/objects/screw-tactile.png",
+      "size": 26866,
+      "sha256": "ad784036b2a6ff6a71fe252b0c0dd42fc8eb12b536f98a766ce66951f86cc073",
+      "source_git_blob": "fed2111a4317746ac2c565987d27050c93d5b467"
+    },
+    {
+      "path": "project/provenance.json",
+      "size": 1073,
+      "sha256": "79d0e6a20a67ee234a24cc05b778d8fcf69c9f2cbc19a5b68314b48dfb9c31d3",
+      "source_git_blob": "7ea22ed4ac3929d59168558b35edca7db090b7b5"
+    },
+    {
+      "path": "project/results.csv",
+      "size": 294,
+      "sha256": "dcba59fce88b07881e50177c68757721b1723978012ea5be9ef7ac8ee8d2dd6d",
+      "source_git_blob": "6e6c9e347f77a5278296b23e9378a9c543e277ae"
+    },
+    {
+      "path": "project/results.json",
+      "size": 1135,
+      "sha256": "155db8a22827dfa56a4ac26f33f69b664bf2df73434f29b1d59baeff8bb53bae",
+      "source_git_blob": "acfd0ce92175e5c186f2210135bef2dfc0c8401c"
+    },
+    {
+      "path": "robots.txt",
+      "size": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "source_git_blob": "1f53798bb4fe33c86020be7f10c44f29486fd190"
+    }
+  ]
+}

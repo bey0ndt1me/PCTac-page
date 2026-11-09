@@ -1,0 +1,69 @@
+{
+  "updated": "2026-09-11",
+  "source": "main.tex, Table I",
+  "status": "Manuscript-reported counts; episode-level records not independently re-audited for this website update.",
+  "trialsPerTask": 30,
+  "tasks": [
+    "Whiteboard Wiping",
+    "Test-Tube Insertion",
+    "Perturbed Test-Tube Insertion"
+  ],
+  "results": [
+    {
+      "policy": "Vision-only",
+      "successes": [
+        19,
+        9,
+        1
+      ]
+    },
+    {
+      "policy": "Marker-based Wedge RGB",
+      "successes": [
+        23,
+        21,
+        13
+      ]
+    },
+    {
+      "policy": "Marker-based Wedge depth",
+      "successes": [
+        20,
+        18,
+        15
+      ]
+    },
+    {
+      "policy": "Marker-based Wedge normal",
+      "successes": [
+        21,
+        20,
+        14
+      ]
+    },
+    {
+      "policy": "Marker-based Wedge marker",
+      "successes": [
+        22,
+        null,
+        null
+      ]
+    },
+    {
+      "policy": "PCTac RGB",
+      "successes": [
+        22,
+        25,
+        13
+      ]
+    },
+    {
+      "policy": "PCTac Hue",
+      "successes": [
+        24,
+        28,
+        16
+      ]
+    }
+  ]
+}
