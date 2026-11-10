@@ -23,8 +23,8 @@
     },
     {
       "path": "index.html",
-      "size": 14628,
-      "sha256": "9a29c52ddfec788b29b8010923c585bd6e749ee660293393f9605a24aefa8201",
+      "size": 14626,
+      "sha256": "d23a2da973c8ae11ea4cb39edc79f2763631acfe8707962e3271a7bb74f1d85c",
       "source_git_blob": "80acee25f4d87f65a9052c75df5219108ac8f78a",
       "edited_after_import": "2026-11-09"
     },
@@ -465,7 +465,7 @@
     },
     {
       "date": "2026-11-10",
-      "summary": "Removed the on-page disclaimer prose at the owner's request: the \"How to read these numbers\" evidence note under the results table, the resources caption note, the \"About the videos\" section, and the footer template credit line. The re-audit caveat remains in site/project/results.json."
+      "summary": "Removed the on-page disclaimer prose at the owner's request: the \"How to read these numbers\" evidence note under the results table, the resources caption note, the failure-mode caption note, and the \"About the videos\" section. The footer template credit was replaced with a compact one-line attribution (Nerfies, CC BY-SA 4.0). The re-audit caveat remains in site/project/results.json."
     }
   ]
 }
