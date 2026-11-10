@@ -6,7 +6,7 @@
   "previous_target_commit": "2c0cfc09aec57581b69f035b5a884d134c33150e",
   "backup_tag": "archive/site-before-anonymous-migration-20261109",
   "imported_at": "2026-11-09T20:12:14.654580+08:00",
-  "content_changes": "index.html, _next/static/css/20c3f2f8edbdd7ef.css and robots.txt were edited after import on 2026-11-09 to credit the real author list, add the affiliation and contribution-key legend, break the author line before Ziyuan Jiao, remove the anonymous venue line, and allow search indexing; all other files remain byte-for-byte copies of the source.",
+  "content_changes": "index.html, _next/static/css/20c3f2f8edbdd7ef.css and robots.txt were edited after import on 2026-11-09 and 2026-11-10 to credit the real author list, add the affiliation and contribution-key legend, break the author line before Ziyuan Jiao, remove the anonymous venue line, allow search indexing, add the social preview tags, and drop the on-page disclaimer prose; all other files remain byte-for-byte copies of the source.",
   "files": [
     {
       "path": ".nojekyll",
@@ -23,8 +23,8 @@
     },
     {
       "path": "index.html",
-      "size": 16101,
-      "sha256": "a95c4dd24949b7e0827ee858ae06a8705811d4efd9460500a90441334574e84e",
+      "size": 14628,
+      "sha256": "9a29c52ddfec788b29b8010923c585bd6e749ee660293393f9605a24aefa8201",
       "source_git_blob": "80acee25f4d87f65a9052c75df5219108ac8f78a",
       "edited_after_import": "2026-11-09"
     },
@@ -462,6 +462,10 @@
     {
       "date": "2026-11-09",
       "summary": "Added og.png plus Open Graph and Twitter card meta tags so the Pages URL renders the social preview; the anonymous line was removed from the card before it was published. Size and sha256 above reflect the edited content."
+    },
+    {
+      "date": "2026-11-10",
+      "summary": "Removed the on-page disclaimer prose at the owner's request: the \"How to read these numbers\" evidence note under the results table, the resources caption note, the \"About the videos\" section, and the footer template credit line. The re-audit caveat remains in site/project/results.json."
     }
   ]
 }

@@ -12,7 +12,10 @@
 - Treat the website as a result-free research preview until real, locked
   analyses replace the pending state. The 2026-09-11 update replaces the result-free
   state with explicitly manuscript-reported task counts from commit 446c867.
-  Keep missing entries null and the independent-re-audit caveat visible.
+  Keep missing entries null. The independent-re-audit caveat lives in the data
+  (`project/results.json`) and the repository docs; the owner asked on 2026-11-10
+  to keep that prose off the rendered page, so do not re-add on-page disclaimer
+  blocks without a new instruction.
 - Never present planned trial counts, synthetic checks, generated graphics, or
   open-source reference media as measured project evidence.
 - Preserve the labels `Planned`, `not measured data`, `result-free`, and
